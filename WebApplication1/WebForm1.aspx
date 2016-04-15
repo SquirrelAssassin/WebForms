@@ -12,7 +12,7 @@
     
         Put something here that you want to see down below:
         <asp:TextBox ID="txtname" runat="server"></asp:TextBox>
-        <asp:Button ID="Button" runat="server" OnClick="Button1_Click" Text="OK" />
+        <asp:Button ID="Button" runat="server" OnClick="Button1_Click" Text="Cowabunga" />
         <br />
         <br />
         <br />
