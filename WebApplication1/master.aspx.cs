@@ -13,15 +13,17 @@ namespace WebApplication1
         {
 
         }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
             lbloutput.Text = txtname.Text;
+            lbloutput0.Text = txtname2.Text;
         }
-
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Redirect(string.Format("page1.aspx?value1={0}&value2={1}", Server.UrlEncode(txtname.Text), Server.UrlEncode(txtname2.Text)));
+        }
         protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
     }
 }
